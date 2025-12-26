@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
-import HeroSection from '../components/landing/HeroSection';
-import ServicesGrid from '../components/landing/ServicesGrid';
-import WhyChooseUs from '../components/landing/WhyChooseUs';
-import Testimonials from '../components/landing/Testimonials';
-import ContactSection from '../components/landing/ContactSection';
-import Footer from '../components/landing/Footer';
-import MobileStickyCTA from '../components/landing/MobileStickyCTA';
+import HeroSection from '@/components/landing/HeroSection';
+import ServicesGrid from '@/components/landing/ServicesGrid';
+import WhyChooseUs from '@/components/landing/WhyChooseUs';
+import Testimonials from '@/components/landing/Testimonials';
+import ContactSection from '@/components/landing/ContactSection';
+import Footer from '@/components/landing/Footer';
+import MobileStickyCTA from '@/components/landing/MobileStickyCTA';
 
 export default function Home() {
   useEffect(() => {
